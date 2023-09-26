@@ -2,7 +2,7 @@
 
 Movie App Design features include:
 
-Displaying a list of movies.
-Showing movie details when a movie is clicked.
-Searching for movies.
-Sorting and filtering options.
+1. Displaying a list of movies.
+1. Showing movie details when a movie is clicked.
+1. Searching for movies.
+1. Sorting and filtering options.
