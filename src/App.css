@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Global styles for the entire app */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+
+/* Header component styles */
+
+.header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+
+/* MovieList component styles */
+
+.movie-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.movie-card {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 10px;
+	padding: 10px;
+	width: 250px;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+	transform: scale(1.05);
+}
+
+.movie-card img {
+	max-width: 100%;
+	height: auto;
+}
+
+.movie-card h3 {
+	margin: 10px 0;
+}
+
+/* MovieDetails component styles */
+
+.movie-details {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.movie-details img {
+	max-width: 100%;
+	height: auto;
+}
+
+.movie-details h2 {
+	margin: 10px 0;
+}
+
+.movie-details p {
+	margin: 10px 0;
+}
+
+/* SearchBar component styles */
+
+.search-bar {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.search-bar input {
+	padding: 10px;
+	width: 80%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+/* App component styles */
+
+.App {
+	text-align: center;
+}
